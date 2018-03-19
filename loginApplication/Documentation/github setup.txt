@@ -1,0 +1,15 @@
+-------------------------CREATE NEW REPO -----------------------------
+
+Step 1: Initilize Git in the project. -- Git init
+Step 2 : Check for the changes  -- Git status
+		then add all the files which has been changed -- git add . ('.' is which adds everything)
+Step 3 : Commit all the changes to local repository -- git commit -m "Your Message"  (-m is the flag which tells the message)
+
+STEP 4 : here u will push to your GITHUB space -- git remote add origin ''(url : ex: https://github.com/Githubsmita/'repositoryname'.git)
+git -u push origin master
+
+
+--------------------------PUSH FILE----------------------------------
+ git remote add origin ''(url : ex: https://github.com/Githubsmita/'repositoryname'.git)
+git -u push origin master
+
