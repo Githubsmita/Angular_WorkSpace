@@ -9,7 +9,11 @@ STEP 4 : here u will push to your GITHUB space -- git remote add origin ''(url :
 git -u push origin master
 
 
---------------------------PUSH FILE----------------------------------
+--------------------------PUSH FILE - For the first time----------------------------------
  git remote add origin ''(url : ex: https://github.com/Githubsmita/'repositoryname'.git)
 git -u push origin master
+
+--------------------------PUSH WHENEVER THERE IS CHNAGE-----------------------------------
+git commit -m 'related change specify'
+git push origin master
 
