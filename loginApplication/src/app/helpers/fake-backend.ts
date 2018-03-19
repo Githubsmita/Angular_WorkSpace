@@ -22,7 +22,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 
             // authenticate
             if (request.url.endsWith('/api/authenticate') && request.method === 'POST') {
-                // find if any user matches login credentials
+                // find if any user matches login credential
                 let filteredUsers = users.filter(user => {
                     return user.username === request.body.username && user.password === request.body.password;
                 });
@@ -120,7 +120,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 
             // pass through any requests not handled above
             return next.handle(request);
-            
+
         })
 
         // call materialize and dematerialize to ensure delay even if an error is thrown (https://github.com/Reactive-Extensions/RxJS/issues/648)

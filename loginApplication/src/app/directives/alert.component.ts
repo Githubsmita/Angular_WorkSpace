@@ -12,7 +12,7 @@ export class AlertComponent {
     message: any;
 
     constructor(private alertService: AlertService) { }
-
+    //init
     ngOnInit() {
         this.alertService.getMessage().subscribe(message => { this.message = message; });
     }
