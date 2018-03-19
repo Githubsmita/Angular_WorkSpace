@@ -7,7 +7,7 @@ import '../assets/app.css';
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  title = 'Angular: Getting Started';
+  title = 'Angular: Getting Started!!';
 }
 
 
